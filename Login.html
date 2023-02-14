@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Login Form</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    
+<!--link to styles.css file starts here-->
     <link rel="stylesheet" href="styles.css" />
+    <!--link to styles.css file ends here-->
   </head>
   <body>
-    
+    <!--nav bar starts here-->
     <nav class="navbar navbar-expand-lg navbar bg-success data-bs-theme=dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Masajja Ufarm</a>
@@ -45,26 +49,30 @@
         </div>
       </div>
     </nav>
-  
-    <!--login form starts here-->
-    <div class="login-page">
-      <div class="form">
-        <form class="register-form">
-          <input type="text" placeholder="name"/>
-          <input type="password" placeholder="password"/>
-          <input type="text" placeholder="email address"/>
-          <button>create</button>
-          <p class="message">Already registered? <a href="Login.html">Sign In</a></p>
-        </form>
-        <form class="login-form">
-          <input type="text" placeholder="username"/>
-          <input type="password" placeholder="password"/>
-          <button>login</button>
-          <p class="message">Not registered? <a href="Signup.html">Create an account</a></p>
-        </form>
-      </div>
+   <!--nav bar ends here-->
+
+   
+ <!--Login form starts here -->
+ <div class="main-w3layouts wrapper">
+  <h1>Login</h1>
+  <div class="main-agileinfo">
+    <div class="agileits-top">
+      <form action="#" method="post">
+        <input class="text" type="text" name="Username" placeholder="Username" required="">
+        <br>
+        <input class="text" type="password" name="password" placeholder="Password" required="">
+        <div class="wthree-text">
+          
+          <div class="clear"> </div>
+        </div>
+        <input type="submit" value="LOGIN">
+      </form>
+      <p>Not registered? <a href="Signup.html">Create an account</a></p>
     </div>
-<!--login form ends here-->
+  </div>
+  
+</div>
+<!--Login form ends here -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
